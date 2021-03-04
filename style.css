@@ -1,0 +1,181 @@
+/*  */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+/*  */
+*{
+    font-family: 'Barlow', sans-serif;
+}
+.upper-nav {
+    color: darkgreen;
+}
+.upper-nav li{
+    list-style: none;
+}
+.upper-nav a{
+    text-decoration: none;
+    opacity: 50%;
+    color: green;
+    
+}
+.upper-nav a:hover{
+    /* text-decoration: none; */
+    opacity: 100%;
+}
+
+/* hero */
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)),url(https://preview.colorlib.com/theme/gardening/assets/img/hero/h1_hero1.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1{
+    font-size: 50px;
+    color: white;
+}
+.hero p {
+    color: white;
+}
+.hero a{
+    text-decoration: none;
+    color: green;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+    margin-top: 50px;
+    padding: 12px 0;
+    border: 1px solid white;
+}
+.hero a span {
+    z-index: -1;
+    background-color: white;
+    width: 100%;
+}
+
+/* work-card */
+.work-card{
+    height: 300px
+}
+.card-unit{
+    padding: 70px 60px 65px ;
+    margin-right: 10px;
+}
+.card-unit a{
+    
+    text-decoration: none;
+    color: darkgreen;
+    padding-top: 50px;
+}
+/* about */
+
+.about{
+    background: #305534;
+    color: white;
+    height: 130vh;
+}
+.about h2{
+    font-size: 50px;
+}
+.about h4{
+    font-size: 30px;
+}
+.about p{
+    font-size: 20px;
+}
+/* services */
+.services h5{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.services h5 a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.services p{
+    font-size: 20px;
+    line-height: 1.6;
+    color:#66816A ;
+}
+.services-card{
+    border-right: 1px solid lightgrey;
+    margin-right: 20px;
+}
+
+/* future-projects */
+
+.future-projects{
+    width: 80%;
+}
+.future h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #305534;
+}
+
+/* commitment */
+
+.commitment h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #305534;
+    margin-bottom: 10px;
+}
+.commitment p{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #66816A;
+    margin-bottom: 10px;
+}
+.commitment a{
+    width: 100%;
+    background-color: #66816A;
+    padding: 16px 10px;
+}
+.commitment button{
+    width:100%;
+}
+.form-col label{
+    color: #305534;
+}
+.form-col h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #305534;
+    margin-bottom: 10px;
+}
+/* footer */
+.footer{
+    
+}
+.footer li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.footer a{
+    text-decoration: none;
+    color: #305534;
+    
+}
+.footer h4{
+    color: #305534;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer p{
+    font-size: 20px;
+    color: #305534;
+}
+
+.footer-icon a{
+    border: 1px solid rgba(0,136,15,0.2);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: none;
+    color: #00880F;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 8px;
+}
